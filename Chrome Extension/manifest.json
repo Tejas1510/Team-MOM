@@ -1,0 +1,33 @@
+{
+  "name": "Google Meet Transcripts",
+  "description": "Record Google Meet Transcripts",
+  "version": "3",
+  "icons": {
+    "128": "MD.png"
+  },
+  "browser_action": {
+    "default_icon": "MD.png",
+    "default_popup": "html.html"
+  },
+  "content_scripts": [{
+    "matches": ["https://meet.google.com/*"],
+    "js": ["stenographer.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }, 
+  {
+    "matches": ["https://meetdigest.netlify.app/*", "https://www.meetdigest.netlify.app/*"],
+    "js": ["loginContentScript.js"],
+    "run_at": "document_idle",
+    "all_frames": false
+  }],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": ["stenographer.js"],
+  "manifest_version": 2,
+  "permissions": [
+    "storage"
+  ]
+}
