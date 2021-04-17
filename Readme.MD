@@ -1,5 +1,11 @@
 ![Image](https://socialify.git.ci/Tejas1510/Team-MOM/image?description=1&forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
 
+## [Website Live here](https://meetdigest.netlify.app/)
+
+## [Live Demo Video](https://youtu.be/_TMf0AoLaik)
+
+## [Project Presentation](https://drive.google.com/file/d/1OuAIG5rxuCNh2VZAZMgvCKQTlQdyZkrN/view?usp=sharing)
+
 ## 📌 Introduction
 
 <b>Meet Digest</b> is a create chrome extension to integrate with online meetings in order to produce multilingual text and voice summarizer for taking Minutes of Meeting
