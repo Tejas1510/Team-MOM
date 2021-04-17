@@ -1,3 +1,5 @@
+![Image](https://socialify.git.ci/Tejas1510/Team-MOM/image?description=1&forks=1&issues=1&language=1&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+
 ## 📌 Introduction
 
 <b>Meet Digest</b> is a create chrome extension to integrate with online meetings in order to produce multilingual text and voice summarizer for taking Minutes of Meeting
