@@ -21,17 +21,17 @@ English.
 Step 4: Moving a step ahead we will convert the summarized text to audio form thus providing help to visually
 impaired people.
 
-Step 5: So our app will have 4 layering’s and will solve all the suggestions provided.
+Step 5: So our app will have 4 layerings and will solve all the suggestions provided.
 
 ## Technology:
 
 • Frontend: React JS, Material UI, JavaScript, HTML, CSS
 
-• Backend: Django ( Python Framework)
+• Backend: Django ( Python REST Framework)
 
 • Database: SQLite
 
-• Other Technologies: Machine Learning, NLTK Library
+• Other Technologies: Machine Learning, NLTK Library, Tensorflow
 
 ## Functional Specifications:
 
