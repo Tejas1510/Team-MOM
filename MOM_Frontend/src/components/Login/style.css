@@ -1,0 +1,80 @@
+.formContainer{
+	background-color: rgb(9, 46, 75);;
+	box-shadow: 0 20px 50px rgba(9, 46, 75, 0.7);
+	width: 350px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.signInContainer , .signUpContainer{
+	display: none;
+}
+
+.signInHeader , .signUpHeader{
+	color: white;
+	width: 50%;
+	background-color:  rgb(9, 46, 75);;
+	cursor: pointer;
+	display: inline-block;
+	opacity: 0.6;
+	padding: 10px 0;
+	font-size: large;
+	text-align: center;	
+}
+
+.activeHeader{
+	opacity: 1;
+	font-weight: bold;
+	border-bottom: 3px solid white;
+}
+
+.activeContainer{
+	display: block;
+}
+
+.inputGroup{
+	margin: 10px;
+	padding: 5px 15px;
+}
+
+.inputGroup label{
+	color:white;
+	font-weight: bold;
+}
+
+.inputGroup input{
+	padding: 5px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.buttonLink{
+	border: none;
+	outline: none;
+	background-color: #ccc;
+	display: inline-block;
+	color: black;	
+	padding: 10px 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+
+.buttonLink:hover{
+	background-color: white;
+	color: black;
+}
+
+.actionButton{
+	text-align: center;
+}
+
+.infoBox{
+	color: white;
+	padding: 0 0 10px 0;
+	text-align: center;
+	cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-item{
+    font-size: 22px;
+}
+.login{
+    background-color:inherit;
+    color: #fff;
+    border: 1.5px solid white;
+    width: 80%;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.navBackground{
+    background-color: rgb(63,81,181);
+}
+
+.navLinkActive{
+    background-color: white;
+    color: rgb(63,81,181);
+}

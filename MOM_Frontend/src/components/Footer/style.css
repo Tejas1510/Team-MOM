@@ -1,0 +1,18 @@
+
+  .footerTitle{
+    color: white;
+  }
+  .white-text{
+    color: #fff;
+    cursor: pointer;
+  }
+  .middleColor{
+    background: #1C2331;
+  }
+  .copyrightColor{
+    background:rgba(0,0,0,0.2);;
+  }
+  .white{
+      color: white;
+      cursor: pointer;
+  }
