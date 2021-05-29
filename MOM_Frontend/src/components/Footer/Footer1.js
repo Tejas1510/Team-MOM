@@ -14,7 +14,7 @@ function Footer1() {
    textAlign:'center'}}>
 
   <div className="footer-copyright text-center py-3 copyrightColor white">
-    Copyright © 2021 Meet Digest
+    Copyright © 2021 Saransh
   </div>
 
 </footer>

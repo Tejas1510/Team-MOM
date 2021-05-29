@@ -13,7 +13,7 @@ const Aboutus = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1 className="aboutUsHead">About Meet Digest</h1>
+                            <h1 className="aboutUsHead">About Saransh</h1>
                             <p className="aboutUsPara">We are here with a mission to increase productivity, make collaboration easy and convert your conversation into actions with an effective and efficient use of ML.</p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const Aboutus = (props) => {
                     <div className="row aboutRow">
                         <div className="col-12 col-sm-6">
                             <h2 className="aboutHead1"><b>What we do?</b></h2>
-                            <p>Meet Digest provides automated meeting minutes based on state-of-the-art ML and NLP (Natural Language Processing) technology.</p>
+                            <p>Saransh provides automated meeting minutes based on state-of-the-art ML and NLP (Natural Language Processing) technology.</p>
                             <h2 className="aboutHead1"><b>Why we do it?</b></h2>
                             <p>Meeting minutes are time-consuming, distracting, and boring, which leaves room for inefficiencies and greater expenses. In fact, $37 billion is wasted annually in the U.S. on unproductive meetings.</p>
                         </div>
@@ -38,7 +38,7 @@ const Aboutus = (props) => {
                         </div>
                         <div className="col-12 col-sm-6">
                             <h2 className="aboutHead1"><b>What is the Plan?</b></h2>
-                            <p>We think meetings should be vibrant, interesting, and efficient.  We created Meet Digest, an ML-powered SaaS solution for remote and in-person meetings, to change the way meetings are run. Automatically generated meeting minutes produced instantly from your voice, in addition to extracted action items and shared insights, are the future of successful meetings.</p>
+                            <p>We think meetings should be vibrant, interesting, and efficient.  We created Saransh, an ML-powered SaaS solution for remote and in-person meetings, to change the way meetings are run. Automatically generated meeting minutes produced instantly from your voice, in addition to extracted action items and shared insights, are the future of successful meetings.</p>
                         </div>
                     </div>
                     <div className="row aboutRow">

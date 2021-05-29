@@ -117,8 +117,8 @@ const speechStyle = {
 
 function MyModal(props) {
   const [state, setState] = useState({ lang: 'English', text: props.transcript, model: 'NLTK Model', summaryText: '', translatedSummary: '' });
-  //const TransAPI = 'https://meetdigest.herokuapp.com/api/translateText';
-  const TransAPI = 'http://localhost:8000/api/translateText';
+  const TransAPI = 'https://meetdigest.herokuapp.com/api/translateText';
+  // const TransAPI = 'http://localhost:8000/api/translateText';
 
   const getTranslation = (inp_text, src_lang, dest_lang) => {
     console.log('getTranslation called');
@@ -172,7 +172,7 @@ function MyModal(props) {
     if (model_name === 'NLTK Model')
       APIURL = model1API;
     else if (model_name === 'T5 Model')
-      APIURL = model1API;
+      APIURL = model2API;
 
     let token = localStorage.getItem('token');
     if (token) {

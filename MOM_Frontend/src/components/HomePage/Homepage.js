@@ -33,7 +33,7 @@ function Homepage() {
                       <Fade left>
                         <h2 className="heading" ><span className="navBarColor" >Automated</span> MEETING NOTES FOR IN-PERSON AND REMOTE CONVERSATIONS</h2>
                         </Fade>  
-                        <p>We back you up with automated meeting minutes in every conversation. Meet Digest saves your time in board meetings, team management, and customer support.</p>
+                        <p>We back you up with automated meeting minutes in every conversation. Saransh saves your time in board meetings, team management, and customer support.</p>
                         <p>Focus on the conversation, we'll do the rest automatically.</p>
                     </div>
 
@@ -64,7 +64,7 @@ function Homepage() {
                       <h2 className="featureHeading">Leave the hassle to ML</h2>
 
                       <p>Your time, your mind, and your experience is unique and precious! In order to succeed, you must <strong>focus</strong> on what matters.</p>
-                      <p>That's why Meet Digest created a smart solution for Automated Meeting Minutes, converting conversations into actions, <strong>empowering</strong> your skills, and saving hours of your time.</p>
+                      <p>That's why Saransh created a smart solution for Automated Meeting Minutes, converting conversations into actions, <strong>empowering</strong> your skills, and saving hours of your time.</p>
                   </div>
                 </div>
                 <div className="row feature">
@@ -85,7 +85,7 @@ function Homepage() {
               <div className="container">
                 <div className="row workFlowRow">
                   <div className="col-12">
-                    <h2 className="workFlowHead">How Meet Digest Works?</h2>
+                    <h2 className="workFlowHead">How Saransh Works?</h2>
                     <h4 className="workFlowSubHead">Ultimate smart meeting assistant at your service</h4>
                   </div>
                 </div>
@@ -104,13 +104,13 @@ function Homepage() {
                   </div>
                   <div className="col-sm-6 col-12">
                     <h2 className="featureHeading"><span className="Empasized">Record</span></h2>
-                    <p>Add Meet Digest as a meeting attendee and you are ready to go. Meet Digest will join your conversation as a smart ML-powered meeting assistant. Just push the record button on the app and it will start transcription</p>
+                    <p>Add Saransh as a meeting attendee and you are ready to go. Saransh will join your conversation as a smart ML-powered meeting assistant. Just push the record button on the app and it will start transcription</p>
                   </div>
                 </div>
                 <div className="row workFlowRow">
                   <div className="col-sm-6 col-12">
                     <h2 className="featureHeading"><span className="Empasized">Transcription and Summarization</span></h2>
-                    <p><strong>Meet Digest</strong> transcribes and summarizes your conversations on the fly.  Meet Digest will generate a transcript and summary <strong>enriched</strong> with speaker identification and voice separation, allowing you to <strong>understand</strong> exactly who said what.</p>                  </div>
+                    <p><strong>Saransh</strong> transcribes and summarizes your conversations on the fly.  Saransh will generate a transcript and summary <strong>enriched</strong> with speaker identification and voice separation, allowing you to <strong>understand</strong> exactly who said what.</p>                  </div>
                   <div className="col-sm-6 col-12">
                     <img src={Step3} className="img-fluid" alt='homepage'></img>
                   </div>
@@ -137,66 +137,7 @@ function Homepage() {
             </section>
 
             <section>
-            <div className="container-fluid my-1">
-              <div className="row " >
-                  <div className="col-12">
-                      <h2 className="text-center featureHeading mb-1" style={{fontSize:'38px'}}>OUR <span style={{color:' #ff5a6e'}}>TEAM</span></h2>
-                  </div>
-                  <div className="col-12 mb-3">
-                    <p className="teamHeading" style={{textAlign:'center'}}>Meet the Team of Awesome and Creative Individuals behind the Product</p>
-                  </div>
-                  <div className="col-md-2 my-2 ml-5 text-center"  >
-                      <img className="bd-placeholder-img rounded-circle" width="140" height="140"
-                          src={Atul}></img>
-                      <h3 className="pt-3">Atul Thakre</h3>
-                      <p>Backend Developer</p>
-                      <a href="https://www.linkedin.com/in/arthakre/" target="_blank" role="button" style={{textDecoration:'none'}} ><LinkedInIcon color="primary" fontSize="large"></LinkedInIcon></a>   
-                      <a  href="https://github.com/atulthakre00" target="_blank" role="button" style={{textDecoration:'none',textDecorationColor:'black'}}  >  <GitHubIcon fontSize="large"></GitHubIcon></a>
-                      {/* <LinkedInIcon color="primary" fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/"  ></a></LinkedInIcon>    <GitHubIcon fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/" role="button"> </a></GitHubIcon> */}
-                  </div>
-
-                  <div className="col-md-2 my-2 ml-5 text-center" >
-                      <img className="bd-placeholder-img rounded-circle" width="140" height="140"
-                          src={YashAgrawal}></img>
-                      <h3 className="pt-3">Yash Agrawal</h3>
-                    
-                      <p>Frontend Developer</p>
-                      <a href="https://www.linkedin.com/in/yash-agrawal-90b05217a" target="_blank" role="button" style={{textDecoration:'none'}} ><LinkedInIcon color="primary" fontSize="large"></LinkedInIcon></a>   
-                      <a  href="https://github.com/1706-yash" role="button" target="_blank" style={{textDecoration:'none',textDecorationColor:'black'}}  >  <GitHubIcon fontSize="large"></GitHubIcon></a>
-                      {/* <LinkedInIcon color="primary" fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/" role="button"></a></LinkedInIcon>    <GitHubIcon fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/" role="button"> </a></GitHubIcon> */}
-                  </div>
-
-                  <div className="col-md-2 my-2 ml-4 text-center" >
-                      <img className="bd-placeholder-img rounded-circle" width="140" height="140"
-                          src={Tejas}></img>
-                      <h3 className="pt-3">Tejas Tapas</h3>
-                      
-                      <p>Frontend Developer</p>
-                      <a href="https://www.linkedin.com/in/tejas-sudhir-tapas-971847171/" target="_blank" role="button" style={{textDecoration:'none'}} ><LinkedInIcon color="primary" fontSize="large"></LinkedInIcon></a>   
-                      <a  href="https://github.com/Tejas1510" role="button" target="_blank" style={{textDecoration:'none',textDecorationColor:'black'}}  >  <GitHubIcon fontSize="large"></GitHubIcon></a>
-                      {/* <LinkedInIcon color="primary" fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/" role="button"></a></LinkedInIcon>    <GitHubIcon fontSize="large"><a  href="https://www.linkedin.com/in/arthakre/" role="button"> </a></GitHubIcon> */}
-                  </div>
-
-                  <div className="col-md-2 my-2 ml-4 text-center">
-                      <img className="bd-placeholder-img rounded-circle" width="140" height="140"
-                          src={YashTelkhade}></img>
-                      <h3 className="pt-3">Yash Telkhade</h3>
-                      
-                      <p>Tester & Chrome Extension Developer</p>
-                      <a href="https://www.linkedin.com/in/yash-telkhade" target="_blank" role="button" style={{textDecoration:'none'}} ><LinkedInIcon color="primary" fontSize="large"></LinkedInIcon></a>   
-                      <a  href="https://github.com/YashTelkhade" target="_blank" role="button" style={{textDecoration:'none',textDecorationColor:'black'}}  >  <GitHubIcon fontSize="large"></GitHubIcon></a>
-                  </div>
-                  <div className="col-md-2 my-2 ml-4 text-center">
-                      <img className="bd-placeholder-img rounded-circle" width="140" height="140"
-                          src={Ayush}></img>
-                      <h3 className="pt-3">Ayush Kedia</h3>
-                     
-                      <p>Tester & Chrome Extension Developer</p>
-                      <a href="https://www.linkedin.com/in/ayush-kedia-9a1475188" target="_blank" role="button" style={{textDecoration:'none'}} ><LinkedInIcon color="primary" fontSize="large"></LinkedInIcon></a>   
-                      <a  href="https://github.com/AyushKedia" target="_blank" role="button" style={{textDecoration:'none',textDecorationColor:'black'}}  >  <GitHubIcon fontSize="large"></GitHubIcon></a>
-                  </div>
-               </div>
-            </div>
+            
               <div className="roundButton bg-primary">
                   <NavLink to="/nptel"><h3 style={{color:'white',textAlign:'center',paddingTop:'20px',fontWeight:'bold',fontSize:'30px'}}><DescriptionIcon style={{fontSize:'40px'}}></DescriptionIcon></h3></NavLink>
               </div>

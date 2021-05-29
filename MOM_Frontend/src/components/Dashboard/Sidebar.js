@@ -18,7 +18,7 @@ import CallIcon from '@material-ui/icons/Call';
 import InfoIcon from '@material-ui/icons/Info';
 import Avatar from '@material-ui/core/Avatar';
 import { deepOrange, deepPurple } from '@material-ui/core/colors';
-import logo from './Meet Digest.png';
+
 import './style.css';
 import Card from './OutlinedCard.js'
 import Chip from '@material-ui/core/Chip';
@@ -84,7 +84,7 @@ function Sidebar(props) {
     <div className="App">
       <div className={classes.toolbar} style={{ backgroundColor: 'white', color: 'black' }} >
         <Typography variant="h5" noWrap style={{ color: 'black', padding: '16px' }}>
-          <img src={logo} width="25%" />Meet Digest
+          Saransh
           </Typography>
       </div>
       <Divider />
